@@ -1,0 +1,91 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(235, 236, 228);
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(224, 236, 167);
+}
+
+.confectioning{
+    background-color: rgb(224, 236, 167);
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.text_confectioning{
+    width: 600px;
+    font-size: 24px;
+    margin-right: 40px;
+}
+
+.cakes{
+    width: 400px;
+}
+
+.biathlon{
+    background-color: rgb(224, 236, 167);
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+
+.biathletes{
+    width: 500px;
+}
+
+.text_biathlon{
+    width: 500px;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.running{
+    background-color: rgb(224, 236, 167);
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+
+.text_running{
+    width: 600px;
+    font-size: 24px;
+    margin-right: 40px;
+}
+
+.MHM2019{
+    width: 400px;
+}
+
+table{
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+.htr{
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+ul{
+    margin-top: 50px;
+    margin-left: 13%;
+}
+
+ol{
+    margin-top: 50px;
+    margin-left: 13%;  
+}
+
+form{
+    margin-top: 50px;
+    margin-left: 14%;  
+}
