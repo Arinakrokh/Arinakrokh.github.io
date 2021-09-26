@@ -1,0 +1,63 @@
+body{
+    background-image: url(photo.jpg);
+    repeat: no-repeat;
+}
+.h1{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top: 0%;
+    margin-right: 40%;
+    margin-left: 3%;
+}
+.bunns{
+    max-width: 350px;
+    margin-left: 65%;
+    margin-bottom: -23%;
+}
+.hobby{
+    max-width: 50px;
+    margin-left: 58%;
+    margin-bottom: -7%;
+}
+.table{
+    font-family: 'Raleway', sans-serif; 
+}
+.caption{
+    font-size: 20px;
+}
+.recipie{
+    font-size: 20px;    
+    font-family: 'Raleway', sans-serif; 
+    background-color: #F2A391;
+}
+.apple{
+    max-width: 140px;
+    margin-left: 80%;
+    margin-bottom: -22%;
+}
+.text_books_apples{
+    font-size: 20px;    
+    font-family: 'Raleway', sans-serif; 
+    margin:3%;
+}
+.book{
+    max-width: 120px;
+    margin-left: 81%;
+    margin-bottom: -20%;
+}
+.books{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #F2A391; 
+}
+.form{
+    margin-top: 5%;
+    margin-left: 25%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
