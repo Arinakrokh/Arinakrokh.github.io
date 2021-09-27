@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(210, 223, 231, 0.7);
+}
+h1{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    background-color: rgba(125, 145, 177, 0.8);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+}
+.altogether{
+    display: inline-flex;
+}
+.img1{
+    width: 400px;
+    padding: 10px;
+}
+.the1stblock{
+    display: inline-flex;
+    padding: 5px;
+}
+.line{
+    border-left: 2px solid black;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    margin-left: -1px;
+}
+.img2{
+    width: 650px;
+    padding: 10px;
+    margin-left: 80px;
+}
+.the3rdtext{
+    margin-left: 90px;
+}
