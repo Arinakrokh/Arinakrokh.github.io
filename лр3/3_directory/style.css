@@ -1,0 +1,64 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+body{
+    background-color: antiquewhite  ;
+}
+.h1{
+    font-family: 'Neucha', cursive;
+  margin: 3% 0;
+  font-size: 35px;
+  color: #362612;
+}
+.text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 25px;
+    margin: 1% 5%;
+}
+.corgi{
+    width: 500px;
+margin-left: 30%;}
+.img{
+  width: 400px;
+  margin-left: 35%;
+}
+.list{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 25px;
+}
+.list_h1{
+  position: relative;
+  margin: 5%;
+}
+.dog_bottom{
+  width: 100px;
+  margin-left: 47%;
+  margin-bottom: 2%;
+}
