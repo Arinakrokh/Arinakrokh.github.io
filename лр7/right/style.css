@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E2DDC9;
+}
+
+.h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 2%;
+    color: #450101;
+}
+
+.text {
+    text-align: justify;
+    margin: 0 3%;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    color: #450101;
+}
+
+.img1 {
+    display: flex;
+    margin: 1% auto;
+    width: 450px;
+    box-shadow: 10px 10px 15px 5px #B3AF9F;
+}
+
+.playlist {
+    display: flex;
+    margin: 3% auto;
+}
+
+.recipie {
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    margin-left: 40px;
+    color: #450101;
+}
+
+.easy_recipie {
+    text-align: justify;
+    margin: 2%;
+    font-family: 'EB Garamond', serif;
+    font-size: 23px;
+    color: #450101;
+}
+.items_recipie{
+    text-align: justify;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    color: #450101;
+    margin-left: 40px;
+}
+.enjoy_your_meal{
+    text-align: center;
+    margin: 15px 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color: #450101;
+}
+.cat{
+    display: flex;
+    margin: 0 auto;
+}
