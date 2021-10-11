@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(images/img1.jpg);
+}
+
+.top_image {
+    width: 100%;
+}
+
+.h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'El Messiri', sans-serif;
+    margin: 2% 0 1% 0;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin: 0 3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.video {
+    display: flex;
+    margin: 1% auto;
+}
+
+.button {
+    display: flex;
+    margin: 3% auto;
+    width: 300px;
+}
+.button:hover{
+    opacity: 0.5;
+}
+
+.text1 {
+    color: white;
+    text-align: justify;
+    margin: 7% 10%;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.img3 {
+    width: 180px;
+    float: left;
+    margin-right: 25px;
+}
+.img3:hover{
+    opacity: 0.5;
+}
+
+.advice {
+    margin-left: 15%;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.posters {
+    display: flex;
+    justify-content: space-around;
+}
+
+.a_img {
+    width: 200px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.a_img:hover {
+    opacity: 0.5;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'El Messiri', sans-serif;
+    margin: 2% 0 1% 0;
+}
