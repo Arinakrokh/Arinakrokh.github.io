@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.first-screen{
+    background: url(images/bg1.jpg);
+    background-size: cover;
+    height: 930px;
+}
+
+.first-screen__info{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+}
+
+.first-screen__info__photo{
+    width: 320px;
+    box-shadow: 10px 10px 30px 20px #5C351F;
+}
+
+.first-screen__info__text{
+    margin-top: 20px;
+    margin-left: 70px;
+    border: 1px solid #5C351F;
+    width: 300px;
+    padding: 10px;
+}
+
+.first-screen__info__text__h{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    margin: 10px 0;
+    color: #362013;
+}
+
+.first-screen__info__text__p{
+    width: 300px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #362013;
+}
+
+.first-screen__button{
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #362013;
+    color: #D9D5D2;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.hobbies{
+    background-color: #BE997F;
+    padding-bottom: 100px;
+}
+
+.hobbies__h{
+    padding: 100px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    color: #362013;
+}
+
+.hobbies__text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #362013;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.hobbies__el-all{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.hobbies__el{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.hobbies__el-img{
+    width: 300px;
+    border: 2px solid #362013;
+}
+
+.hobbies__el-h{
+    width: 300px;
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #362013;
+    text-align: center;
+}
+
+.hobbies__el-p{
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #362013;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+.friends{
+    background-color: #362013;
+    height: 100%;
+}
+
+.friends__h{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #D9D5D2;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 90px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Слайдер */
+.slick-slider {
+    min-width: 0;
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+/* Конкретный слайдер */
+.slider {
+    position: relative;
+    padding: 0px 60px;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 60px;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: 0;
+    background: url('images/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+    border: 0PX;
+}
+
+.slider .slick-arrow.slick-next {
+    right: 0;
+    background: url('images/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+    border: 0PX;
+}
+
+.slider .slick-arrow.slick-disabled {
+    opacity: 0.2;
+}
+
+.slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slick-dots li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.slider__item {
+    margin: 0 auto;
+}
+
+.slider__item img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 400px;
+}
+
+.footer{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #BE997F;
+    font-size: 18px;
+    font-weight: 400;
+    color: #362013;
+    text-align: center;
+    padding: 10px;
+}
