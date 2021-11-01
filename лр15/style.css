@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.first-screen{
+    background-color: rgb(255, 166, 210);
+    height: 650px;
+}
+
+.first-screen_all{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.first-screen__img{
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 10px 10px 20px 10px hotpink;
+}
+
+.first-screen__img:hover{
+    width: 320px;
+    box-shadow: 10px 10px 20px 10px purple;
+    transition-duration: 2s;
+}
+
+.first-screen__h{
+    width: 250px;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.first-screen__p{
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.first-screen__dog{
+    width: 200px;
+    display: flex;
+    margin-left: 1000px;
+    margin-bottom: 10px;
+}
+
+.second-screen{
+    background-color: rgb(250, 216, 233);
+}
+
+.second-screen__h{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 45px;
+}
+
+.second-screen__img-row{
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-el{
+    height: 350px;
+}
+
+.img-el:hover{
+    height: 370px;
+    transition-duration: 2s;
+    box-shadow: 5px 5px 15px 5px hotpink;
+}
+
+.second-screen__wish{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.second-screen__img{
+    width: 200px;
+    margin-top: -100px;
+}
+
+.footer{
+    box-shadow:  10px -10px 30px 20px hotpink;
+    background-color: hotpink;
+    color: rgb(250, 216, 233);
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
