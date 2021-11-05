@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.ball > img {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    animation: motion 3s infinite ease-in-out;
+    animation-play-state: running;
+
+}
+
+@keyframes motion{
+    from,
+    to{
+        top: 10px;
+        left: 10px;
+    }
+    25%,
+    75%{top: 77%;
+
+    }
+    50%{top: 50%;
+    }
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 95vh;
+    background-color: #D9D9D9;
+    margin: 0 auto;
+    padding: 0 15%;
+    border-bottom: 4px solid #f00;
+}
+
+.section>img {
+    position: relative;
+    width: 300px;
+    box-shadow: 10px 10px 15px 5px grey;
+}
+
+.section>img:hover {
+    width: 320px;
+    transition-duration: 2s;
+}
+
+.section__text {
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    font-weight: 700;
+    font-size: 42px;
+    margin: 15px 0;
+}
+
+#name::first-letter {
+    font-weight: 900;
+    color: #f00;
+    font-size: 50px;
+}
+
+.section__text>p {
+    font-weight: 500;
+    font-size: 13px;
+    color: #282828;
+}
+
+.section__text>h2 {
+    color: #0e0e0e;
+    margin: 10% 0 0 0;
+    font-size: 19px;
+}
+
+ul li {
+    color: #000000;
+    width: 350px;
+    margin: 2%;
+}
+
+
+.section2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 85vh;
+    background-color: #282828;
+    border-bottom: 4px solid #f00;
+}
+
+.section2>h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section2_content{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0 0 0;
+    justify-content: space-around;
+    width: 90vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.img2 {
+    width: 350px;
+    float: left;
+    box-shadow: 10px 10px 15px 5px #0e0e0e;
+
+}
+
+.img2:hover {
+    width: 400px;
+    transition-duration: 2s;
+}
+
+.section2_content > p{
+    color: white;
+    font-size: 22px;
+    width: 40%;
+    text-align: justify;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info >p{
+    width: 600px;
+    font-size: 22px;
+text-align: justify;
+}
+
+[alt="prize"]{
+    width: 300px;
+}
+
+.h1 {
+    background-color: #f00;
+    font-size: 15px;
+    padding: 0.5%;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
