@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: whitesmoke;
+    color: rgb(41, 41, 41);
+}
+
+.main-screen{
+    height: 600px;
+}
+
+.main-screen>.main-image{
+    width: 500px;
+    position: absolute;
+    left: 17%;
+    top: 10%;
+    z-index: 1;
+}
+
+.blue-block{
+    width: 700px;
+    height: 250px;
+    background-color: #8b9acc;
+    position: absolute;
+    left: 13%;
+    top: 43%;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    background-color: white;
+    width: 430px;
+    height: 230px;
+    padding: 5px;
+}
+
+.text>h1{
+    color: #6F7BA3;
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.text>p{
+    text-align: justify;
+    text-indent: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.main-screen>.text>a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    position: relative;
+    background-color: #6F7BA3;
+    color: white;
+    padding: 3%;
+    border-radius: 30px;
+    top: 10%;
+    left: 35%;
+}
+
+.main-screen>.text>a:hover{
+    padding: 4%;
+    left: 32%;
+    transition-duration: 2s;
+    font-size: 18px;
+}
+
+.info{
+    background-color: #8b9acc;
+    height: 670px;
+}
+
+.year{
+    width: 250px;
+    position: relative;
+    padding-top: 3%;
+    left: 13%;
+}
+
+.info>.year>h1{
+    font-size: 50px;
+    color: white;
+}
+
+.info>.year>p{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    padding: 4px 0;
+    font-style: italic;
+}
+
+.love{
+    width: 600px;
+    position: relative;
+    left: 40%;
+    margin-top: -2%;
+    background-color: whitesmoke;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 15px;
+    line-height: 25px;
+}
+
+.we{
+    width: 580px;
+    margin: 3% auto;
+    display: flex;
+}
+
+.hobbies{
+    padding: 40px 0;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.violet-block{
+    background-color: #8b9acc;
+    width: 30px;
+    height: 260px;
+}
+
+.hobbies>h1{
+    color: #6F7BA3;
+    font-size: 50px;
+    text-align: center;
+}
+
+.hobbies>p{
+    width: 700px;
+    text-align: center;
+    margin: 20px auto 60px auto;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.hobbies>.list>ul{
+    width: 600px;
+    text-align: justify;
+    padding: 0 20px;
+    list-style: circle;
+}
+
+.hobbies>.list>ul>li{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.photos{
+    background-color: #8b9acc;
+    padding: 30px 0 70px 0;
+}
+.photos>h1{
+    font-size: 23px;
+    width: 850px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 3px 0;
+    font-weight: 400;
+    background-color: whitesmoke;
+}
+
+.emoji{
+    width: 25px;
+    margin: 0 10px;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 10px;
+}
+
+
+.gallery>img{
+    height: 350px;
+    border: 2px solid whitesmoke;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin: 20px auto 30px auto;
+}
+
+footer>a>.vk{
+    height: 55px;
+}
+
+footer>a>.inst{
+    height: 45px;
+}
+
+.about-me{
+    background-color: #8b9acc;
+    box-shadow: 0px 0px 10px 15px #8b9acc;
+    font-size: 15px;
+    padding: 5px 0;
+    text-align: center;
+}
