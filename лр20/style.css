@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Overpass Mono', monospace;
+    background-color: whitesmoke;
+}
+
+.first-screen {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.first-screen_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-screen_text__header{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 80px;
+}
+
+.first-screen_text__list{
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    list-style: none;
+    opacity: 0.5;
+}
+
+.emoji {
+    height: 20px;
+    padding: 0 10px;
+    position: relative;
+    top: 3px;
+}
+
+.first-screen_text__link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(45deg, #bf615f, #ff918c);
+    text-align: center;
+    padding: 3% 5%;
+    border-radius: 30px;
+    margin-top: 8%;
+}
+
+.first-screen_text__link:hover{
+    font-size: 25px;
+    padding: 3.5% 5.5%;
+    transition-duration: 2s;
+}
+
+.images_photo{
+    width: 400px;
+    border-radius: 50%;
+}
+
+.images_color-block{
+    background-color: #bf615f;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -30%;
+    margin-left: 55%;
+}
+
+.images_color-block__inst{
+    width: 100px;
+    height: 100px;
+    opacity: 0.6;
+}
+
+.info{
+    background-color: #ff918c;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7%;
+}
+
+.info_text>p{
+    width: 700px;
+    font-size: 17px;
+    line-height: 25px;
+    text-indent: 20px;
+    text-align: justify;
+    padding: 3px 0;
+}
+
+.butterflies{
+    width: 150px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 5%;
+}
+
+.info>img{
+    width: 300px;
+}
+
+.friends{
+    background-color: #bf615f;
+}
+
+.friends-header{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Слайдер */
+.slick-slider {
+    min-width: 0;
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+/* Конкретный слайдер */
+.slider {
+    position: relative;
+    padding: 0px 60px;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 60px;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: 0;
+    background: url('images/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+    border: 0PX;
+}
+
+.slider .slick-arrow.slick-next {
+    right: 0;
+    background: url('images/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+    border: 0PX;
+}
+
+.slider .slick-arrow.slick-disabled {
+    opacity: 0.2;
+}
+
+.slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slick-dots li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.slider__item {
+    margin: 0 auto;
+}
+
+.slider__item img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 400px;
+    border: 1px solid white;
+}
+
+footer{
+    text-align: center;
+    padding: 1%;
+    opacity: 0.8;
+}
