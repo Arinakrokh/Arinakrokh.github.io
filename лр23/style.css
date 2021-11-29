@@ -16,6 +16,10 @@ body{
     z-index: 10;
 }
 
+.top-screen_logo{
+    width: 100px;
+}
+
 .top-screen_all-nav{
     display: flex;
     flex-direction: row;
