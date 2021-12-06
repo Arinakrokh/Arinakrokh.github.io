@@ -377,6 +377,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .skills-el_header{
@@ -406,7 +407,6 @@ body{
 }
 
 .salary{
-    padding-left: 115px;
     color: white;
     text-shadow: 1px 0.5px #FFF388;
     font-size: 20px;
